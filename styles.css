@@ -1,1 +1,27 @@
-body{background-color: blue}
+header{
+  display: block;
+}
+
+section{
+  display: block;
+}
+
+body{
+  max-width: 460px;
+  margin: 0 auto;}
+
+a:visited { 
+    color: orange;
+}
+
+h1 {
+    padding: 25px;
+    font-family: Comic Sans MS;
+    color: red;
+    background-image: url("http://s3.amazonaws.com/spoonflower/public/design_thumbnails/0020/6792/rbowling_copy_shop_thumb.png");
+}
+
+table{
+  padding: 10px;
+  border-style: solid;
+}
