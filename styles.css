@@ -1,27 +1,61 @@
-header{
-  display: block;
+#cast{
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
 }
 
-section{
-  display: block;
+.links{
+  text-align: center;
 }
 
-body{
-  max-width: 460px;
-  margin: 0 auto;}
+#contact{
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+#homepage{
+  max-width: 760px;
+  margin: 0 auto;
+}
 
 a:visited { 
-    color: orange;
+  color: orange;
+}
+
+h4{
+  text-align: center
 }
 
 h1 {
-    padding: 25px;
-    font-family: Comic Sans MS;
-    color: red;
-    background-image: url("http://s3.amazonaws.com/spoonflower/public/design_thumbnails/0020/6792/rbowling_copy_shop_thumb.png");
+  text-align: center;
+  padding: 25px;
+  font-family: "Comic Sans MS";
+  color: red;
+  background-image: url("http://s3.amazonaws.com/spoonflower/public/design_thumbnails/0020/6792/rbowling_copy_shop_thumb.png");
+}
+
+.director{
+  display: inline-block;
+  vertical-align: top;
 }
 
 table{
+  display: inline-block;
+  vertical-align: top;
   padding: 10px;
   border-style: solid;
+}
+
+@media screen and (max-width: 760px) {
+  footer{
+    display: block;
+  }
+  #cast{
+    display: block;
+    float: none;
+  }
+  .links{
+    text-align: left;
+  }
 }
